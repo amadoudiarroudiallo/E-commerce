@@ -1,0 +1,316 @@
+/*----------- Find out more about us! ---------*/
+#find{
+    height: 100vh;
+    text-align: center;
+}
+
+#sec-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+#sec-cont img{
+    width: 90%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#sec-cont img:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+#parti{
+    margin-top: 40px;
+}
+
+#find h1, h2{
+    color: #b82358;
+}
+
+#find #sec-cont > a, p{
+    color: rgb(107, 107, 107);
+}
+
+#find #btn button{
+    background-color: rgb(99, 99, 99);
+    width: 16%;
+    height: 6vh;
+    margin-top: 60px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;  
+}
+
+#find #btn button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+
+/*-------------- about us -------------*/
+#about{
+    height: 90vh;
+    margin-top: 50px;
+}
+
+#cont-about{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cont-about img{
+    width: 100%;
+    height: 30rem;
+}
+
+#cont-about h1{
+    color: #b82358;
+    font-size: 30px;
+}
+
+#about #texte{
+    margin: 10% 10%;
+    min-width: 40%;
+}
+
+#about .liste{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40PX;
+}
+
+#about .liste li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+#about  .liste a:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    border-bottom: 3px solid #b82358;
+    margin-top: 20px;
+    color: #b82358;
+}
+
+/*--------------- section service --------------*/
+#service{
+    height: 50vh;
+    background-image: url("image/banniere_bas_site_web_1x1.jpg");
+    margin-top: -50px;
+}
+
+#service > h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#con-ser{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#con-ser #left > p{
+    color: #fff;
+    font-size: 17px;
+}
+
+#con-ser #form .control{
+    border: none;
+    width: 45vh;
+    height: 3rem;
+    border-radius: 2px;
+}
+
+#con-ser #form #controle{
+    border: none;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#images img{
+    margin-left: 80%;;
+    padding-top: -15%;
+}
+
+
+/*------------------- crave for change -----------------*/
+
+#crave{
+    height: 100vh;
+    background: url("image/banniere_site_web_sous_recette_1920x1080.jpg");
+    margin-top: -2%;
+}
+
+#cont-crave{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+ #boxes  li, a{
+    list-style: none;
+    color: #b82358;
+   
+}
+
+#cont-crave .boxes i{
+    width: 30px;
+    height: 30px;
+    color: #000;
+}
+
+#boxes a:hover{
+    color: #262626;
+}
+
+#crave #form .control{
+    border: none;
+    width: 45vh;
+    height: 3rem;
+    border-radius: 2px;
+}
+
+#crave #form #controle{
+    border: none;
+    width: 18vh;
+    height: 6vh;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 80px;
+    background-color: #525151;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+
+#forme{
+    margin-left: 40px;
+    
+}
+
+#forme > p{
+    color: #262626;
+}
+
+
+
+/*------------------- footer --------------*/
+footer{
+    height: 10vh;
+}
+
+/*-------------- responqivite -------------*/
+@media screen and (max-width: 991px) {
+    #sec-cont{
+        display: block;
+        flex-wrap: wrap;
+        height: 100vh;
+    }  
+
+    #btn{
+        width: 50rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30rem;
+        margin-left: -27vh;
+    }
+
+    #cont-about{
+        flex-wrap: wrap;
+        margin-top: 43rem;
+    }   
+
+    #cont-about #img{
+        position: absolute;
+    } 
+    
+    #cont-about #img img{
+        width: 95%;
+    }
+
+    #cont-about #texte{
+        position: relative;
+        text-align: center;
+    }
+
+    #cont-about #texte p{
+        margin-top: 30px;
+        color: #000;
+        font-size: 25px;
+    }
+
+    #about #liste{
+        margin-top: 10px;
+    }
+
+    #service #con-ser{
+        margin-top: -20px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #cont-crave{
+       text-align: center;
+    }
+
+    #service #images img{
+        margin-top: -50px;
+        margin-left: 0;
+    }
+
+    #forme {
+        text-align: center;
+        margin-top: -50px;
+    }
+    
+    
+    #form{
+        margin-left: -20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+   footer{
+    margin-top: 55px;
+    text-align: center;
+    padding-top: -20px;
+   }
+
+
+}   
