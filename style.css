@@ -85,6 +85,7 @@ body{
     left: 10px;
 
 }
+
 .image1, .image2{
     background-size: cover;
     background-position: center;
@@ -109,7 +110,12 @@ img.anime{
     transition: transform 2s ease;
     position: absolute;
 }
-.discover{
+.icon-bouton i{
+    width: 80px;
+    height: 80px;
+    color: #535050;
+}
+.icon-bouton .discover{
 Background-color:rgb(88, 82, 82);
 padding: 20px 30px 20px 30px;
 border: 2px solid #424040;
