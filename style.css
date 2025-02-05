@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto",  sans-serif;
-
 }
 
 /* header */
@@ -13,17 +12,16 @@ body{
     justify-content: center;
     justify-items: center;
     background-color: rgb(255, 190, 159);
-    
 }
+
 .header-end a {
     padding-top: 20px;
     text-decoration:none;
     color: #616060;
     font-size: 16px;
     font-weight: bold;
-
-
 }
+
 .menu{
     
     display: flex;
@@ -32,18 +30,22 @@ body{
     margin-top: 20px;
    
 }
+
 .menu{
     height: 100px;
     width: 100%;
     border-bottom: 5px solid #cfc7c7;
 }
+
 .menu .lien-1 ul{
     display: flex;
     margin-left: -60px;
 }
+
 .menu .lien-1 ul {
     list-style-type: none;
 }
+
 .menu .lien-1 ul  a{
     text-decoration: none;
     margin-left: 4vh;
@@ -53,6 +55,7 @@ body{
     text-transform: uppercase;
     position: relative;
 }
+
 .menu .lien-1 ul a:hover{
     border-bottom:3px solid rgb(167, 38, 50);  
 }
@@ -67,7 +70,7 @@ body{
     font-size: 28px;
 }
 .icone i{
-     margin-top: 20px; 
+    margin-top: 20px; 
     color: #a72632;
     
 }
@@ -77,8 +80,8 @@ body{
     margin-top: 15px;
     font-size: 16px ;
     color: #a72632;
-    
 }
+
 .pays i{
     position: relative;
     top:18px;
@@ -111,9 +114,8 @@ img.anime{
     position: absolute;
 }
 .icon-bouton i{
-    width: 80px;
-    height: 80px;
-    color: #535050;
+
+    color: #444040;
 }
 .icon-bouton .discover{
 Background-color:rgb(88, 82, 82);
@@ -168,19 +170,12 @@ cursor: pointer;
 display: flex;
 justify-content: space-around;
 
-}
 
+}
 .titre1{
     margin-left: -20px;
-
 } 
 
-.titre2{
-
-}
-.titre3{
-
-}
  .titre4{
     margin-left: -50px;
 
@@ -195,8 +190,6 @@ justify-content: space-around;
     text-align: center;
 }
 .bouton1 a{
-    /* width: 60px; */
-    /* height: 80px; */
     background-color: rgb(59, 57, 57);
     padding: 20px 30px 20px 35px;
     border: 1px solid rgb(83, 80, 80);
@@ -205,7 +198,6 @@ justify-content: space-around;
     text-decoration: none;
     cursor: pointer;
     border-radius: 20px;
-    
 }
 .bouton1{
     text-align: center;
@@ -215,8 +207,6 @@ justify-content: space-around;
 .sec2{
     height: 95vh;
 }
-
-
 
 .galerie2  {
     padding-top: 20px;
@@ -270,8 +260,11 @@ justify-content: space-around;
     color: #FFF;
     font-size: 26px;
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 05ec6f3305ff866f1fdb2e8ad51fb
 button{
 background-color:rgb(255, 255, 255);
     padding: 20px 30px 20px 35px;
@@ -369,13 +362,14 @@ background-color:rgb(255, 255, 255);
     background-color: rgb(255, 190, 159);
 }
 
-
 .container3-2 h1{
     text-align: center;
     color: #a72632;
     font-size: 26px;
     letter-spacing: 2px;
-
+}
+.container3-2 .pub{
+    display: flex;
 }
 .sec4{
     height: 80vh;
@@ -433,7 +427,8 @@ background-color:rgb(255, 255, 255);
 
 .anime-image10{
     background: url("Images/IMG10.jpg");
-} */
+} 
+
 .anime-image1,.anime-image2,.anime-image3, .anime-image4,.anime-image5,
 .anime-image6, .anime-image7, .anime-image8, .anime-image9, .anime-image10{
     background-size: cover;
@@ -456,36 +451,38 @@ background-color:rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     height: 90vh;
-   
-    
 }
+
 .cadre{
-     height: 300px; 
-     width: 300px;
+    height: 300px; 
+    width: 300px;
     background-color: #FFF;
     border: 1px solid #FFF;
     margin: auto;
- padding-left: 15px; 
+    padding-left: 15px; 
    
 }
+
 .cadre h3{
     font-size: 20px;
     color: #535050;
 }
+
 .cadre a,p{
     font-size: 16px;
     color: #979292;
 }
+
 .cadre a{
     text-decoration: none;
 }
+
 .cadre a:hover{
     border-bottom: 2px solid grey;  
 }
 .cadre h3,a,p{
     text-align: center;
 }
-
 
 /*----------- Find out more about us! ---------*/
 #find{
@@ -528,13 +525,15 @@ background-color:rgb(255, 255, 255);
 #find #btn button{
     background-color: rgb(99, 99, 99);
     width: 16%;
-    height: 6vh;
-    margin-top: 60px;
+    height: 7vh;
+    margin-top: 6%;
+    padding-top: 20px;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-weight: 700;
-    cursor: pointer;  
+    cursor: pointer; 
+    text-align: center; 
 }
 
 #find #btn button:hover{
@@ -629,12 +628,12 @@ background-color:rgb(255, 255, 255);
 
 #con-ser #form #controle{
     border: none;
-    width: 15vh;
-    height: 5vh;
-    border-radius: 2px;
+    width: 20vh;
+    height: 7vh;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin: 20px 100px;
+    margin: 20px 80px;
     background-color: blue;
     color: #fff;
     text-transform: capitalize;
@@ -688,17 +687,15 @@ background-color:rgb(255, 255, 255);
 
 #crave #form #controle{
     border: none;
-    width: 18vh;
-    height: 6vh;
-    border-radius: 2px;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin: 20px 80px;
+    margin: 20px 60px;
     background-color: #525151;
-    border-radius: 10px;
     color: #fff;
     text-transform: capitalize;
-    font-weight: 400;
     cursor: pointer;
 }
 
@@ -721,6 +718,9 @@ button:hover{
 /*------------------- footer --------------*/
 footer{
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
 }
 
 /*-------------- responqivite -------------*/
@@ -800,26 +800,7 @@ footer{
     text-align: center;
     padding-top: -20px;
    }
-
-
 }   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
