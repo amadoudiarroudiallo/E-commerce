@@ -1,3 +1,484 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",  sans-serif;
+}
+
+/* header */
+.header-end{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(255, 190, 159);
+}
+
+.header-end a {
+    padding-top: 20px;
+    text-decoration:none;
+    color: #616060;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+}
+
+.menu{
+    height: 100px;
+    width: 100%;
+    border-bottom: 5px solid #cfc7c7;
+}
+
+.menu .lien-1 ul{
+    display: flex;
+    margin-left: -60px;
+}
+
+.menu .lien-1 ul {
+    list-style-type: none;
+}
+
+.menu .lien-1 ul  a{
+    text-decoration: none;
+    margin-left: 4vh;
+    color:#a72632;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu .lien-1 ul a:hover{
+    border-bottom:3px solid rgb(167, 38, 50);  
+}
+
+.menu .logo{
+    margin-right: 12vh;
+
+}
+.menu .icone a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 28px;
+}
+.icone i{
+    margin-top: 20px; 
+    color: #a72632;
+    
+}
+
+.pays{
+    display: flex;
+    margin-top: 15px;
+    font-size: 16px ;
+    color: #a72632;
+}
+
+.pays i{
+    position: relative;
+    top:18px;
+    left: 10px;
+
+}
+
+.image1, .image2{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    
+} 
+div.anime{
+    position: relative;
+
+}
+img.image1{
+    position: absolute;
+}
+
+div.anime:hover .image1{
+    opacity: 0;
+
+}
+img.anime{
+    transition: transform 2s ease;
+    position: absolute;
+}
+.icon-bouton i{
+
+    color: #444040;
+}
+.icon-bouton .discover{
+Background-color:rgb(88, 82, 82);
+padding: 20px 30px 20px 30px;
+border: 2px solid #424040;
+color:rgb(247, 245, 245);
+font-size: 16px;
+text-decoration: none;
+border-radius: 20px;
+position: relative;
+bottom: 80px;
+left: 20px;
+cursor: pointer;
+}
+
+.title{
+    font-size: 26px;
+    color: #a72632;
+    text-align: center;
+
+}
+.galerie1 {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+     grid-template-rows: 250px; 
+     /* column-gap:10px; */
+     justify-content: space-around;
+     
+}
+.photo1{
+    background-image: url("Images/IMG3.webp");
+}
+.photo2{
+    background-image: url("Images/IMG4.webp");
+}
+.photo3{
+    background-image: url("Images/IMG5.webp");
+}
+.photo4{
+    background-image: url("Images/IMG6.jpg");
+}
+.photo1, .photo2, .photo3, .photo4{
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    margin-left: -30px;
+    
+}
+.titre{
+display: flex;
+justify-content: space-around;
+
+
+}
+.titre1{
+    margin-left: -20px;
+} 
+
+ .titre4{
+    margin-left: -50px;
+
+}
+.titre a{
+    text-decoration: none;
+    
+}
+.titre h3{
+    color: rgb(95, 91, 91);
+    font-size: 20px;
+    text-align: center;
+}
+.bouton1 a{
+    background-color: rgb(59, 57, 57);
+    padding: 20px 30px 20px 35px;
+    border: 1px solid rgb(83, 80, 80);
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.bouton1{
+    text-align: center;
+}
+/* sec2 */
+
+.sec2{
+    height: 95vh;
+}
+
+.galerie2  {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: 500px;
+    justify-content: center;
+     gap: 25px; 
+     margin-top: 30px;
+
+}
+.plat1{
+
+    background: url("Images/PLAT1.jpg");
+}
+.plat2{
+    background: url("Images/PLAT2.jpg");
+}
+.plat3{
+    background: url("Images/PLAT3.jpg");
+}
+.plat1 , .plat2 , .plat3 {
+    background-size: cover;
+    background-position: center;
+}
+.plat1:hover{
+    box-shadow: 10px 20px 10px rgb(80, 79, 79);
+    transform: scale(0.5s);
+}
+.plat2:hover{
+    box-shadow: 10px 20px 10px rgb(80, 79, 79);
+    transform: scale(0.5s);
+}
+.plat3:hover{
+    box-shadow: 10px 20px 10px 20px rgb(80, 79, 79);
+    transform: scale(0.5s);
+}
+.title1{
+    width: 100%;
+    height: 85%; 
+    display: flex;
+    justify-content: end; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    margin-left: 30px;
+}
+.title1 a{
+    text-decoration: none;
+}
+.title1  a h1{
+    color: #FFF;
+    font-size: 26px;
+}
+button{
+background-color:rgb(255, 255, 255);
+    padding: 20px 30px 20px 35px;
+    border: 1px solid #FFF;
+    color:    rgb(59, 57, 57);
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.sec3{
+    height: 130vh;
+    padding-top: 30px;
+    background:url("Images/banniere_site_web_sous_recette_1920x1080.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+.container3{
+    height: 60vh;
+
+   
+}
+.container3 .titre h3{
+    color: #a72632;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0;
+}
+ .repas1{
+    width: 250px;
+    height: 250px;
+    background-image: url("Images/REPAS1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.repas2{
+    width: 250px;
+    height: 250px;
+    background-image: url("Images/REPAS2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.repas3{
+    width: 250px;
+    height: 250px;
+    background-image: url("Images/REPAS3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Galerie3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+.para1 {
+    width: 100%;
+    height: 100px; 
+    position: relative;
+    top: 160px;
+    color: #837e7e;
+    font-weight: bold;
+    background-color: #f3f3f3;
+
+}
+.para1 p{
+    margin-left: -20px;
+}
+.para1 a{
+    color: #837e7e;
+}
+.container3-1 button{
+    Background-color:rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+    border: 2px solid #424040;
+    color:    rgb(59, 57, 57);
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container3-1 {
+    padding-top: 50px;
+    text-align: center; 
+}
+.container3-1 input[type="radio"]{
+    accent-color:rgb(134, 132, 132);
+}
+.container3-2{
+    margin-top: 25px;
+    padding-top: 30px;
+    height: 280px;
+    background-color: rgb(255, 190, 159);
+}
+
+.container3-2 h1{
+    text-align: center;
+    color: #a72632;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.container3-2 .pub{
+    display: flex;
+}
+.sec4{
+    height: 80vh;
+    margin-top: 50px;
+    background: #f3f3f3;
+    
+}
+.container4{
+    
+    height: 60vh;
+    padding-top: 30px ;
+    
+}
+.container4 .face{
+    text-align: center;
+
+}
+.container4 .face h2{
+    font-size: 28px;
+    color: #a72632;
+    font-weight: bold;
+}
+.container4 .face h3{
+    font-size: 28px;
+    color: #585656;
+    font-weight: bold;
+
+}
+.anime-image1{
+    background: url("Images/IMG1.jpeg");
+}
+.anime-image2{
+    background: url("Images/IMG2.jpg");
+}
+
+.anime-image3{
+    background: url("Images/IMG3.jpg");
+}
+
+.anime-image4{
+    background: url("Images/IMG4.jpg");
+}
+.anime-image5{
+    background: url("Images/IMG5.jpg");
+}
+.anime-image6{
+    background: url("Images/IMG6.jpg");
+}
+.anime-image7{
+    background: url("Images/IMG7.webp");
+}
+.anime-image8{
+    background: url("Images/IMG8.jpg");
+}
+
+.anime-image10{
+    background: url("Images/IMG10.jpg");
+} 
+
+.anime-image1,.anime-image2,.anime-image3, .anime-image4,.anime-image5,
+.anime-image6, .anime-image7, .anime-image8, .anime-image9, .anime-image10{
+    background-size: cover;
+    background-position: center;
+}
+.anime-images{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns:repeat(8,150px);
+    grid-template-rows: 150px;
+    gap:10px;
+}
+.sec5{
+    height: 90vh;
+    padding-top: 40px;
+}
+.sec5 .container5{
+    background-image:url("Images/AdobeStock_749648972_1500x.jpg") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.cadre{
+    height: 300px; 
+    width: 300px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin: auto;
+    padding-left: 15px; 
+   
+}
+
+.cadre h3{
+    font-size: 20px;
+    color: #535050;
+}
+
+.cadre a,p{
+    font-size: 16px;
+    color: #979292;
+}
+
+.cadre a{
+    text-decoration: none;
+}
+
+.cadre a:hover{
+    border-bottom: 2px solid grey;  
+}
+.cadre h3,a,p{
+    text-align: center;
+}
+
 /*----------- Find out more about us! ---------*/
 #find{
     height: 100vh;
@@ -39,13 +520,15 @@
 #find #btn button{
     background-color: rgb(99, 99, 99);
     width: 16%;
-    height: 6vh;
-    margin-top: 60px;
+    height: 7vh;
+    margin-top: 6%;
+    padding-top: 20px;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-weight: 700;
-    cursor: pointer;  
+    cursor: pointer; 
+    text-align: center; 
 }
 
 #find #btn button:hover{
@@ -140,12 +623,12 @@
 
 #con-ser #form #controle{
     border: none;
-    width: 15vh;
-    height: 5vh;
-    border-radius: 2px;
+    width: 20vh;
+    height: 7vh;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin: 20px 100px;
+    margin: 20px 80px;
     background-color: blue;
     color: #fff;
     text-transform: capitalize;
@@ -199,17 +682,15 @@
 
 #crave #form #controle{
     border: none;
-    width: 18vh;
-    height: 6vh;
-    border-radius: 2px;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin: 20px 80px;
+    margin: 20px 60px;
     background-color: #525151;
-    border-radius: 10px;
     color: #fff;
     text-transform: capitalize;
-    font-weight: 400;
     cursor: pointer;
 }
 
@@ -232,6 +713,8 @@ button:hover{
 /*------------------- footer --------------*/
 footer{
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*-------------- responqivite -------------*/
@@ -311,6 +794,12 @@ footer{
     text-align: center;
     padding-top: -20px;
    }
-
-
 }   
+
+
+
+
+
+
+
+
