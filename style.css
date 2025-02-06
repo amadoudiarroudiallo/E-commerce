@@ -426,11 +426,12 @@ background-color:rgb(255, 255, 255);
     background-position: center;
 }
 .anime-images{
-    margin: 35px 25px;
+    /* margin: 35px 25px; */
     display: grid;
     grid-template-columns:repeat(8,150px);
     grid-template-rows: 150px;
-    gap:10px;
+    /* gap:10px; */
+    justify-content: space-around;
 }
 .sec5{
     height: 90vh;
