@@ -28,7 +28,6 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 20px;
-   
 }
 
 .menu{
@@ -260,11 +259,8 @@ justify-content: space-around;
     color: #FFF;
     font-size: 26px;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 05ec6f3305ff866f1fdb2e8ad51fb
 button{
 background-color:rgb(255, 255, 255);
     padding: 20px 30px 20px 35px;
