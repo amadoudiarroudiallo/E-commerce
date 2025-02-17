@@ -1,0 +1,15 @@
+@media screen and (max-width: 991px) {
+    .header-end{
+        font-size: 14px;
+    }
+    .menu{
+        flex-wrap: wrap;
+        display: inline-block;
+        justify-content: center;
+    }
+    .menu .lien-1 ul  a{
+        font-size: 20px;
+    }
+
+
+}
