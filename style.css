@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: 60px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     justify-items: center;
     background-color: rgb(255, 190, 159);
@@ -39,7 +39,8 @@ body{
 
 .menu .lien-1 ul{
     display: flex;
-    margin-left: -60px;
+    gap: 15px;
+    /* margin-left: -60px; */
 }
 
 .menu .lien-1 ul {
@@ -48,7 +49,7 @@ body{
 
 .menu .lien-1 ul  a{
     text-decoration: none;
-    margin-left: 4vh;
+    /* margin-left: 4vh; */
     color:#a72632;
     font-size: 18px;
     font-weight: bold;
@@ -128,6 +129,7 @@ cursor: pointer;
 
 @media screen and (max-width: 991px) {
     .header-end{
+        width: 100%;
         font-size: 14px;
     }
     .menu{
@@ -135,7 +137,7 @@ cursor: pointer;
         flex-wrap: wrap;
         display: flex;
         justify-content: space-around;
-        margin-left: -15px; 
+        /* margin-left: -15px;  */
 
     }   
     .menu .lien-1 ul  a{
@@ -147,33 +149,37 @@ cursor: pointer;
     } 
     .anime img{
         width: 100%;
-        margin-top: 10px;
     }
+    .icon-bouton{
+        margin-left: 25px;
+
+    }
+    /* sec1 */
     .sec1 .container1 .title  h1{
-        font-size: 18px;
+        font-size: 16px;
     }
     .sec1 .container1 .galerie1 {
-        display:flex;
+        display: block;
         flex-wrap: wrap;
     }
-    .box{
-        width: 200px;
-        height: 200px;
+    .galerie1 img{
+        width: 86%;
+        height: 180px;
+        margin-left: 30px;
     }
+    .galerie1{
+        font-size: 14px;
+    }
+
     .sec2 .container2 .galerie2{
       padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(1,400px);
     grid-template-rows: 160px 160px 160px;
     justify-content: center;
-     gap: 20px; 
+     gap: 15px; 
      margin-top: 30px;
     }
-    /* .sec2 .container2 .galerie2 .plat1  .plat2  .plat3{
-        width: 150px;
-        height: 300px;
-
-    } */
  .title1 a h1{
     font-size: 16px;
     text-align: center;
@@ -184,76 +190,82 @@ cursor: pointer;
             height: 4vh;
             font-size: 12px;
             text-align: center;
-            margin-left: 20vh;
+             margin-left: 20vh; 
         }
-        .sec3{
-          
-            margin-top: 6vh; 
-        }
-        .Galerie3{
-          
-        display: flex;
-        justify-items: center;
-        }
-        .container3{
-            height: 60vh;
-
-        }
-        .para1 {
-            width: 100%;
-            height: 40px; 
-            position: relative;
-            top: 80px;
-            
-        }
-        .para1 a {
-        font-size: 16px;
-        margin-left: 10vh;
-            
-        }
-        
-        .para1 p{
-            font-size: 10px;
-        }
-        .repas1 .repas2 .repas3{
-            height: 10vh;
-            width: 50%;
-        }
-        container3-1 button{
-            font-size: 12px;
-            margin-top: 10vh;
+ .sec3{ 
     
-        }
-         .container3-1{
-            margin-top: -15vh;
-              
-        } 
-        button{
-            margin-left: -30px;
-        }
-       .sec3 .container3-2 {
-        height: 6vh;
-        margin-top: -30px;
-        
+    /* height: 250vh;  */
+    width: 100%; 
+     /* margin-top: 6vh;  */
+ }
+.Galerie3{
+    margin-left: 15px;
+    width: 80%;
+    gap: 10px; 
+          
+} 
+ .container3{
+height: 100vh;
 
+}
+ 
+.para1 {
+    width: 70%;
+    height: 50px; 
+    /* position: relative;
+    top: 160px; */
+    color: #837e7e;
+    font-weight: bold;
+    background-color: #f3f3f3;
+
+}
+.para1 a,p {
+font-size: 16px;
+/* margin-left: 10vh; */
+            
+}
+        
+.para1 p{
+ font-size: 10px;
+}
+.repas1 .repas2 .repas3{
+   height: 5vh;
+   width: 50px;
+   margin-left: 10px;
+        }
+container3-1 button{
+font-size: 12px;
+margin-top: 10vh;
+}
+ .container3-1{
+margin-top: -15vh;           
+} 
+ button{
+    margin-left: -30px;
+        }
+ .sec3 .container3-2 {
+height: 6vh;
+margin-top: -30px;
        }
-       .sec3 .container3-2 .pub{
-        height: 100px;
-        width: 60vh;
-        margin-left: 20vh;
-        display:block;
-        justify-content: space-around;
-        margin: 0;
-        flex-wrap: wrap;
+.sec3 .container3-2 .pub{
+height: 100px;
+width: 60vh;
+margin-left: 20vh;
+display:block;
+justify-content: space-around;
+margin: 0;
+flex-wrap: wrap;
        }
        .sec3 .container3-2{
         height: 120vh;
        }
+       .sec4{
+        height: 80vh;
+        padding-top: -40px;
 
-
+       }
         .sec4 .container4{
-            margin-top: 60vh;
-            padding-left: -10vh;    
+            margin-top: 60vh;    
         }
        
     
@@ -266,12 +278,13 @@ cursor: pointer;
             grid-template-rows: 130px 130px 130px;
         }
        .sec5{
+        width: 100%;
         margin-top: 20vh;
        }
+       .cadre h3{
+        font-size: 16px;
+       }
         
-
-
-
 }
 
 
@@ -308,56 +321,35 @@ cursor: pointer;
 }
 .galerie1 {
     padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4,250px);
-     grid-template-rows: 250px; 
-     flex-wrap: wrap;
+    display: flex;
+     flex-wrap:  row wrap;
      /* column-gap:10px; */
      justify-content: space-around;
      
-}
-.photo1{
-    background-image: url("Images/IMG3.webp");
-}
-.photo2{
-    background-image: url("Images/IMG4.webp");
-}
-.photo3{
-    background-image: url("Images/IMG5.webp");
-}
-.photo4{
-    background-image: url("Images/IMG6.jpg");
 }
 .photo1, .photo2, .photo3, .photo4{
     background-size: cover;
     background-position: center;
 }
-.box{
-    margin-left: -30px;
-    
+.galerie1 h3{
+    color: #8f8888;
+    font-size: 18px;
+    text-align: center; 
 }
+
 .titre{
 display: flex;
 justify-content: space-around;
-
-
 }
-.titre1{
-    margin-left: -20px;
-} 
 
- .titre4{
-    margin-left: -50px;
-
-}
 .titre a{
     text-decoration: none;
     
-}
+/* }
 .titre h3{
     color: rgb(95, 91, 91);
     font-size: 20px;
-    text-align: center;
+    text-align: center; */
 }
 .bouton1 a{
     background-color: rgb(59, 57, 57);
@@ -403,15 +395,15 @@ justify-content: space-around;
     background-position: center;
 }
 .plat1:hover{
-    box-shadow: 10px 20px 10px rgb(80, 79, 79);
+    box-shadow: 0 0 15px rgb(80, 79, 79);
     transform: scale(0.5s);
 }
 .plat2:hover{
-    box-shadow: 10px 20px 10px rgb(80, 79, 79);
+    box-shadow: 0px 0px 15px rgb(80, 79, 79);
     transform: scale(0.5s);
 }
 .plat3:hover{
-    box-shadow: 10px 20px 10px 20px rgb(80, 79, 79);
+    box-shadow: 0px 0px 15px rgb(80, 79, 79);
     transform: scale(0.5s);
 }
 .title1{
@@ -434,7 +426,6 @@ justify-content: space-around;
 
 button{
 background-color:rgb(255, 255, 255);
-    /* padding: 20px 30px 20px 35px; */
     width: 20vh;
     height: 8vh;
     border: 1px solid #FFF;
@@ -487,9 +478,10 @@ background-color:rgb(255, 255, 255);
 }
 .Galerie3{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 25px;
+    /* flex-wrap: wrap; */
+     /* gap: 15px; */
     margin-top: 15px;
 }
 .para1 {
@@ -544,7 +536,7 @@ background-color:rgb(255, 255, 255);
    
 }
 .sec4{
-    height: 80vh;
+    height: 90vh;
     margin-top: 50px;
     background: #f3f3f3;
     
